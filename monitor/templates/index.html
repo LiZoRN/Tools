@@ -1,0 +1,21 @@
+<!DOCTYPE html>  
+<html>  
+    <head>  
+        <script type="text/javascript" src="../static/jquery.js"></script>  
+        <script type="text/javascript" src="../static/highstock.js"></script>  
+        <script type="text/javascript" src="../static/exporting.js"></script>  
+        <script type="text/javascript" src="../static/js/memory.js"></script>  
+    </head> 
+    <body>
+        <div class="container">
+            <h4> monitor rest api</h4>
+            <ul>
+                <li><a href="/monitor/api/v1.0/system">系统信息</a></li>
+                <li><a href="/monitor/api/v1.0/cpu">CPU信息</a></li>
+                <li><a href="/monitor/api/v1.0/disk">硬盘信息</a></li>
+                <li><a href="/monitor/api/v1.0/memory">内存信息</a></li>
+            </ul>
+        </div>
+        <div id="container" style="height: 400px; min-width: 310px"></div>
+    </body>
+</html>
